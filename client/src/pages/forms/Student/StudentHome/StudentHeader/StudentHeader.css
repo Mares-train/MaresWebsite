@@ -1,0 +1,30 @@
+.header-logo {
+  width: 70px !important;
+  height: 70px !important;
+}
+
+.Snav-links {
+  display: flex;
+  align-items: center;
+
+}
+
+.Snav-link {
+  margin-right: 12px;
+  text-decoration: none;
+  /* Adjust margin-right for space between items */
+  margin-left: 12px;
+  cursor: pointer;
+  font-size: 21px;
+  font-weight: 500;
+  color: var(--dark-color);
+}
+
+.Snav-link:last-child {
+  margin-right: 0;
+  /* Remove margin-right for the last item to avoid extra space */
+}
+
+.Snav-link:hover {
+  color: var(--gray-color);
+}

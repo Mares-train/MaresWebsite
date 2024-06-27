@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .image {
+    margin-right: 20px; /* تحديد المسافة بين الصورة والنص */
+    max-width: 50%; /* تحديد عرض الصورة */
+  }
+  
+  .text-container {
+    flex-grow: 1; /* لتمديد عناصر النص ليملؤها المساحة المتبقية */
+  }
+  
+  .highlight {
+    color: mediumaquamarine; /* تحديد لون النص المميز */
+  }
+
+  .hero-title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  

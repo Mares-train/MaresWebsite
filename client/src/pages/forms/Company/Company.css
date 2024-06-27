@@ -1,0 +1,10 @@
+.autoComplete-stylling .MuiFormControl-root .MuiOutlinedInput-root{
+    /* background-color: red; */
+    padding-right: 0px !important;
+    padding-left: 56px !important;
+}
+.autoComplete-stylling .MuiAutocomplete-endAdornment{
+    left: 0px;
+    right: auto !important;
+    /* right: 0px; */
+}

@@ -1,0 +1,92 @@
+
+:root {
+  --main-color: #efefef;
+  --primary-color: #1d2d3d;
+  --secondary-color:#495e74 ;
+  --gray-color: #778697;
+  --dark-color: #292b2c;
+  --blue-color: #0275d8;
+  --green-color:#66cdaa;
+  --green-sea-color: #16a085;
+  --pumpkin-color: #d35400;
+  --red-color: #d9534f;
+  --white-color: #fff;
+  --green-color:#96CFAB;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f6f8 !important;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* Some Global Classes For icons */
+.bi-pencil-square {
+  color: var(--green-sea-color);
+  margin-right: 15px;
+}
+
+.bi-trash-fill {
+  color: var(--red-color);
+}
+
+/* Scrollbar Classes For Google Chrome */
+html::-webkit-scrollbar {
+  width: 12px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: rgb(187, 179, 179);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--dark-color);
+  border-radius: 15px;
+}
+.MuiInputLabel-formControl{
+  transform-origin: right !important;
+  left: inherit !important;
+  overflow: "unset";
+  right: 1.75rem !important;  
+}
+
+/* Chrome */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .MuiOutlinedInput-notchedOutline  {
+    transform: scaleX(-1);
+  }
+}
+
+/* Firefox */
+@-moz-document url-prefix() {
+  .MuiOutlinedInput-notchedOutline {
+    transform: scaleX(1);
+  }
+}
+
+/* Edge */
+@supports (-ms-ime-align:auto) {
+  .MuiOutlinedInput-notchedOutline {
+    transform: scaleX(-1);
+  }
+}

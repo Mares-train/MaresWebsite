@@ -1,0 +1,42 @@
+.hearo-header {
+  background: url(./background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 150px; */
+  width: 100%;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.hero-header-layout {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  text-align: right;
+}
+
+.title {
+  font-size: 40px;
+  padding: 10px 17px;
+  color: rgb(7, 7, 7);
+  margin-right: 400px;
+}
+
+h2 {
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+
+}
+
+.autoComplete-stylling .MuiFormControl-root .MuiOutlinedInput-root {
+  /* background-color: red; */
+  padding-right: 0px !important;
+  padding-left: 56px !important;
+}
+
+.autoComplete-stylling .MuiAutocomplete-endAdornment {
+  left: 0px;
+  right: auto !important;
+  /* right: 0px; */
+}

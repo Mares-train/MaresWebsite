@@ -1,0 +1,14 @@
+.homecontainer{
+    padding: 0 30px;
+    display: flex;
+    align-items: flex-start;
+    
+    }
+    .content{
+        flex: 9;
+        background-color: blue;
+    }
+    .sidebar{
+        flex: 3;
+        background-color: aqua;
+    }

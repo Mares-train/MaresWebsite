@@ -1,0 +1,10 @@
+.content
+{color: "var(--dark-color)";
+    font-size: "15px";
+    background-color: "var(--green-color)";
+    display: "flex";
+    justify-content: "center";
+    align-items: "center";
+    height: "50px";
+margin: 0;
+}
